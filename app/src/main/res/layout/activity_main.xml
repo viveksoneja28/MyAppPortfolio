@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.viveksoneja.myappportfolio.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_title"
+            android:text="@string/my_nanodegree_apps"
+            android:textColor="@color/heading"
+            android:textSize="@dimen/size_title" />
+
+        <Button
+            android:id="@+id/btn_spotify_streamer"
+            style="@style/button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/spotify_streamer" />
+
+        <Button
+            android:id="@+id/btn_scores_app"
+            style="@style/button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/scores_app" />
+
+        <Button
+            android:id="@+id/btn_library_app"
+            style="@style/button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/library_app" />
+
+        <Button
+            android:id="@+id/btn_build_it_bigger"
+            style="@style/button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/build_it_bigger" />
+
+        <Button
+            android:id="@+id/btn_xyz_reader"
+            style="@style/button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/xyz_reader" />
+
+        <Button
+            android:id="@+id/btn_capstone_my_own_app"
+            style="@style/button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red"
+            android:text="@string/capstone_my_own_app"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

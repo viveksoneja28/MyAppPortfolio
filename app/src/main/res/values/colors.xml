@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#030303</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#DFEAF1</color>
+    <color name="heading">#272E45</color>
+    <color name="udacity">#F08C35</color>
+    <color name="udacity_dark">#CC7A33</color>
+    <color name="red">#CD0E3E</color>
+    <color name="red_dark">#691328</color>
+</resources>
